@@ -53,10 +53,7 @@
                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
-                           <a class="nav-link" href="index.php">form</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="data.php">data</a>
+                           <a class="nav-link" href="log.php">Login</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="#">
