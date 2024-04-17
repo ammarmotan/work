@@ -9,7 +9,7 @@ $row=mysqli_fetch_assoc($d);
 
 if(isset($_POST['update'])){
     $cat=$_POST['cat'];
-    $querry="UPDATE `categorie` SET `cat_name`='$cat' WHERE `cat_id`=$id";
+    $querry="UPDATE `categorie` SET `cat_name`='$cat' WHERE `cat_id`='$id'";
     $result=mysqli_query($con,$querry);
     if($result){
         echo "<script>alert('Update');window.location.href='showcat.php'</script>";
